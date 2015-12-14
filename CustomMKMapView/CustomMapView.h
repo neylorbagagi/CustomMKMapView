@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomMapView.h
 //  CustomMKMapView
 //
 //  Created by Neylor Bagagi on 12/14/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomMapView : UIView
 
 @end
-

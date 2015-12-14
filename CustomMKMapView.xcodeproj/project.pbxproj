@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		F02CBDCA1C1EDD09009E2197 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDC91C1EDD09009E2197 /* main.m */; };
 		F02CBDCD1C1EDD09009E2197 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDCC1C1EDD09009E2197 /* AppDelegate.m */; };
-		F02CBDD01C1EDD09009E2197 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDCF1C1EDD09009E2197 /* ViewController.m */; };
 		F02CBDD31C1EDD09009E2197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02CBDD11C1EDD09009E2197 /* Main.storyboard */; };
 		F02CBDD51C1EDD09009E2197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02CBDD41C1EDD09009E2197 /* Assets.xcassets */; };
 		F02CBDD81C1EDD09009E2197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02CBDD61C1EDD09009E2197 /* LaunchScreen.storyboard */; };
 		F02CBDE31C1EDD09009E2197 /* CustomMKMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDE21C1EDD09009E2197 /* CustomMKMapViewTests.m */; };
 		F02CBDEE1C1EDD09009E2197 /* CustomMKMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDED1C1EDD09009E2197 /* CustomMKMapViewUITests.m */; };
+		F02CBDFC1C1EDD31009E2197 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02CBDFB1C1EDD31009E2197 /* MapKit.framework */; };
+		F02CBDFF1C1EDD96009E2197 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBDFE1C1EDD96009E2197 /* MainTableViewController.m */; };
+		F02CBE151C1EF4BA009E2197 /* CustomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02CBE141C1EF4BA009E2197 /* CustomMapView.m */; };
+		F02CBE171C1EF4C9009E2197 /* CustomMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02CBE161C1EF4C9009E2197 /* CustomMapView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		F02CBDC91C1EDD09009E2197 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F02CBDCB1C1EDD09009E2197 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F02CBDCC1C1EDD09009E2197 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F02CBDCE1C1EDD09009E2197 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F02CBDCF1C1EDD09009E2197 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F02CBDD21C1EDD09009E2197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F02CBDD41C1EDD09009E2197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F02CBDD71C1EDD09009E2197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,12 @@
 		F02CBDE91C1EDD09009E2197 /* CustomMKMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomMKMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02CBDED1C1EDD09009E2197 /* CustomMKMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMKMapViewUITests.m; sourceTree = "<group>"; };
 		F02CBDEF1C1EDD09009E2197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F02CBDFB1C1EDD31009E2197 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F02CBDFD1C1EDD96009E2197 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		F02CBDFE1C1EDD96009E2197 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		F02CBE131C1EF4BA009E2197 /* CustomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMapView.h; sourceTree = "<group>"; };
+		F02CBE141C1EF4BA009E2197 /* CustomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMapView.m; sourceTree = "<group>"; };
+		F02CBE161C1EF4C9009E2197 /* CustomMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMapView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02CBDFC1C1EDD31009E2197 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,7 @@
 		F02CBDBC1C1EDD09009E2197 = {
 			isa = PBXGroup;
 			children = (
+				F02CBDFB1C1EDD31009E2197 /* MapKit.framework */,
 				F02CBDC71C1EDD09009E2197 /* CustomMKMapView */,
 				F02CBDE11C1EDD09009E2197 /* CustomMKMapViewTests */,
 				F02CBDEC1C1EDD09009E2197 /* CustomMKMapViewUITests */,
@@ -103,8 +112,11 @@
 			children = (
 				F02CBDCB1C1EDD09009E2197 /* AppDelegate.h */,
 				F02CBDCC1C1EDD09009E2197 /* AppDelegate.m */,
-				F02CBDCE1C1EDD09009E2197 /* ViewController.h */,
-				F02CBDCF1C1EDD09009E2197 /* ViewController.m */,
+				F02CBDFD1C1EDD96009E2197 /* MainTableViewController.h */,
+				F02CBDFE1C1EDD96009E2197 /* MainTableViewController.m */,
+				F02CBE131C1EF4BA009E2197 /* CustomMapView.h */,
+				F02CBE141C1EF4BA009E2197 /* CustomMapView.m */,
+				F02CBE161C1EF4C9009E2197 /* CustomMapView.xib */,
 				F02CBDD11C1EDD09009E2197 /* Main.storyboard */,
 				F02CBDD41C1EDD09009E2197 /* Assets.xcassets */,
 				F02CBDD61C1EDD09009E2197 /* LaunchScreen.storyboard */,
@@ -207,6 +219,12 @@
 				TargetAttributes = {
 					F02CBDC41C1EDD09009E2197 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S3975P6M98;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					F02CBDDD1C1EDD09009E2197 = {
 						CreatedOnToolsVersion = 7.1;
@@ -245,6 +263,7 @@
 			files = (
 				F02CBDD81C1EDD09009E2197 /* LaunchScreen.storyboard in Resources */,
 				F02CBDD51C1EDD09009E2197 /* Assets.xcassets in Resources */,
+				F02CBE171C1EF4C9009E2197 /* CustomMapView.xib in Resources */,
 				F02CBDD31C1EDD09009E2197 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F02CBDD01C1EDD09009E2197 /* ViewController.m in Sources */,
 				F02CBDCD1C1EDD09009E2197 /* AppDelegate.m in Sources */,
 				F02CBDCA1C1EDD09009E2197 /* main.m in Sources */,
+				F02CBE151C1EF4BA009E2197 /* CustomMapView.m in Sources */,
+				F02CBDFF1C1EDD96009E2197 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomMKMapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwolf.CustomMKMapView;
@@ -424,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomMKMapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwolf.CustomMKMapView;
@@ -498,6 +520,7 @@
 				F02CBDF41C1EDD09009E2197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F02CBDF51C1EDD09009E2197 /* Build configuration list for PBXNativeTarget "CustomMKMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				F02CBDF71C1EDD09009E2197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F02CBDF81C1EDD09009E2197 /* Build configuration list for PBXNativeTarget "CustomMKMapViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				F02CBDFA1C1EDD09009E2197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
